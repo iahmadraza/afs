@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login Page</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="../styles/lib/bootstrap.min.css">
+    <!-- main application style css file -->
+    <link rel="stylesheet" type="text/css" href="../styles/afs.main.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="promo-container">
+            <video class="loginpromovid" loop muted autoplay 
+                poster="../images/temp/globebanner.png"
+                src="../images/temp/globe-rotate-21681379-preview.mp4"></video>
+        </div><!--.promo-container-->
+        <div class="loginform-container">
+            <img src="../images/background/world-map.png" alt="afs world" />
+            <div class="lf-header">
+                <!-- <a href="javascript:;">HE</a> -->
+                <span class="afsbranding">
+                    <img src="../images/logo/afs-logo.png" alt="AFS" />
+                </span>
+                <div class="lh-elements">
+                    <a href="javascript:;" class="lhe-chtheme"></a>
+                    <div class="lhe-lang">
+                        <em>Choose Language</em>
+                        <a href="javascript:;">English</a>
+                        <div class="dl-language">
+                            <a href="javascript:;" class="lang-selected">English</a>
+                            <a href="javascript:;">ﺍﻟﻌﺮﺑﻴﺔ</a>
+                            <a href="javascript:;">हिन्दी</a>
+                            <a href="javascript:;">français</a>
+                        </div><!--.dl-language-->
+                    </div><!--.lhe-lang-->
+                </div><!--.lh-elements-->
+            </div><!--.lf-header-->
+
+            <!-- LOGIN FORM :: START -->
+            <div class="lf-form">
+                <div class="company-branding">
+                    <img src="../images/logo/nbo-logo.png" alt="National Bank of Oman" />
+                </div><!--.company-branding-->
+                <div class="login-form">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="stepindicator">Step<em>1/2</em></span>
+                        </div><!--.col-12-->
+                    </div><!--.row-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-controller">
+                                <label>Username</label>
+                                <input type="text" name="" placeholder="Enter username here"><u></u>
+                                <em>Please enter username here</em>
+                            </div><!--.form-control-->
+                        </div><!--.col-12-->
+                    </div><!--.row-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-footer">
+                                <!-- <button class="button">Continue</button> -->
+                                <a class="button" href="login2.html">Continue</a>
+                            </div><!--.form-footer-->
+                        </div><!--.col-12-->
+                    </div><!--.row-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-footer-second">
+                                <span>forgot or lost your password?</span>
+                                <a class="linkbutton" href="javascript:;">Reset Password</a>
+                            </div><!--.form-footer-second-->
+                        </div><!--.col-12-->
+                    </div><!--.row-->
+                </div><!--.login-form-->
+            </div><!--.lf-form-->
+            <!-- LOGIN FORM :: END   -->
+            
+            <div class="lf-footer">
+                <div class="lf-links">
+                    <ul class="lf-lst-links">
+                        <li>
+                            <a href="javascript:;">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div><!--.lf-links-->
+                <div class="lf-copyrights">
+                    <p class="copyrights">Copyrights &copy; 2019 InfrasoftTech OMNIEnterprise</p>
+                </div><!--.lf-copyrights-->
+                <div class="lf-poweredby">
+                    <em>Powered By</em>
+                    <img src="../images/logo/infrasofttech-logo.png" alt="InfrasoftTech" />
+                </div><!--.lf-poweredby-->
+            </div><!--.lf-footer-->
+        </div><!--.loginform-container-->
+    </div><!--.login-container-->
+
+    <!-- Outside page wrapper & direct child of body -->
+    <!-- Page tools :: Start -->
+    <div class="page-tools">
+        <ul class="lst-page-tools">
+            <li>
+                <a href="javascript:;" class="btnchange-theme">
+                    <i></i>
+                    <span>Switch To</span>Dark Theme
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="btnchange-language">
+                    <i></i>
+                    <span>Change Language</span>English
+                </a>
+                <div class="dl-language">
+                    <a href="javascript:;" class="lang-selected">English</a>
+                    <a href="javascript:;">ﺍﻟﻌﺮﺑﻴﺔ</a>
+                    <a href="javascript:;">हिन्दी</a>
+                    <a href="javascript:;">français</a>
+                </div><!--.dl-language-->
+            </li>
+        </ul>
+        <a href="javascript:;" class="btngotop">
+            <span></span><em>Go to Top</em>
+        </a>
+    </div><!--.page-tools-->
+    <!-- Page tools :: End   -->
+
+    <!-- jquery js library -->
+    <script type="text/javascript" src="../scripts/lib/jquery.min.js"></script>
+    <!-- bootstrap js library -->
+    <script type="text/javascript" src="../scripts/lib/bootstrap.min.js"></script>
+    <!-- main application core js file -->
+    <script type="text/javascript" src="../scripts/afs.main.js"></script>
+    <!-- page based scripts -->
+    <script type="text/javascript">
+        $(function () {
+            setTimeout(function(){
+                $('input')[0].focus();
+            }, 700);
+        });
+    </script>
+</body>
+</html>
